@@ -9,6 +9,11 @@
       "UnauthRoleName": "amplify-basictrainingawsampl-dev-132146-unauthRole",
       "StackName": "amplify-basictrainingawsampl-dev-132146",
       "StackId": "arn:aws:cloudformation:us-east-2:791533032397:stack/amplify-basictrainingawsampl-dev-132146/7d941430-34ba-11eb-9edd-06a68ce6af12"
+    },
+    "categories": {
+      "auth": {
+        "cognito525a39e6": {}
+      }
     }
   }
 }
