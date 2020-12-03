@@ -48,7 +48,9 @@ class App extends Component {
   loadListPage = () => { this.setState({ showDetails: false }) }
 
   delete = async id => {
-    //TODO: Implement functionality 
+    await API.del("todosApi", "/items/" + id)
+    await this.fetchList()
+    this.setState({ showDetails: false })
   }
 
   render() {
