@@ -13,9 +13,10 @@ function renderListItem(list, loadDetailsPage) {
     const listItems = list.map(item => (
         <li key={item.id} className="list-group-item" onClick={() =>
             loadDetailsPage(item.id)}>
-            {item.title}    </li>)
+            {item.title}
+        </li>)
     )
-    return <ul className="list-group list-group-flush">{listItems}&lt;</ul>
+    return <ul className="list-group list-group-flush">{listItems}</ul>
 }
 
 export default list

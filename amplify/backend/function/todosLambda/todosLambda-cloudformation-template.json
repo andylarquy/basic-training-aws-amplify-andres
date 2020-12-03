@@ -77,7 +77,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-basictrainingawsampl-dev-132146-deployment",
-          "S3Key": "amplify-builds/todosLambda-45346a41653534757248-build.zip"
+          "S3Key": "amplify-builds/todosLambda-7532466f5938666d7362-build.zip"
         }
       }
     },
